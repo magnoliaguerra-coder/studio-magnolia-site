@@ -13,7 +13,7 @@
 body{
 margin:0;
 background:#efe3d7;
-font-family:Arial, sans-serif;
+font-family:Georgia, serif;
 color:#6d1f2d;
 }
 
@@ -22,11 +22,7 @@ color:#6d1f2d;
 height:100vh;
 
 background:
-linear-gradient(rgba(239,227,215,0.82), rgba(239,227,215,0.90)),
-url('https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?q=80&w=1600&auto=format&fit=crop');
-
-background-size:cover;
-background-position:center;
+linear-gradient(rgba(239,227,215,0.88), rgba(239,227,215,0.92));
 
 display:flex;
 justify-content:center;
@@ -36,195 +32,76 @@ text-align:center;
 padding:30px;
 }
 
-.hero-content{
-
-max-width:950px;
-
-}
-
 h1{
 
-font-family:Georgia, serif;
-
-font-size:88px;
-
+font-size:78px;
 line-height:1.05;
-
 letter-spacing:2px;
-
 text-transform:uppercase;
-
-margin-bottom:30px;
-
-font-weight:500;
+max-width:900px;
+margin-bottom:25px;
 }
 
 p{
-
-font-size:24px;
-
-line-height:1.7;
-
-max-width:760px;
-
+font-size:22px;
+max-width:750px;
 margin:auto;
-
-color:#3b2b2b;
+line-height:1.8;
+text-align:center;
 }
 
 .botao{
 
 display:inline-block;
-
-margin-top:45px;
-
-background:#7f1f31;
-
+margin-top:40px;
+background:#8a1f33;
 color:white;
-
-padding:22px 48px;
-
+padding:20px 40px;
 border-radius:60px;
-
 text-decoration:none;
-
-font-size:15px;
-
 letter-spacing:2px;
+font-size:13px;
 }
 
 section{
 
-padding:120px 30px;
-
+padding:110px 30px;
 text-align:center;
-
-position:relative;
 }
 
 h2{
 
-font-family:Georgia, serif;
-
-font-size:72px;
-
-text-transform:uppercase;
-
+font-size:56px;
 letter-spacing:2px;
-
-margin-bottom:35px;
+text-transform:uppercase;
+margin-bottom:25px;
 }
 
 .texto{
-
-max-width:850px;
-
+max-width:800px;
 margin:auto;
-
-font-size:24px;
-
+font-size:20px;
 line-height:1.8;
-
 text-align:center;
-}
-
-.cards{
-
-display:grid;
-
-grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-
-gap:35px;
-
-max-width:1200px;
-
-margin:auto;
-
-margin-top:70px;
-}
-
-.card{
-
-position:relative;
-
-height:340px;
-
-border-radius:28px;
-
-overflow:hidden;
-
-box-shadow:0 15px 40px rgba(0,0,0,0.10);
-
-cursor:pointer;
-}
-
-.card img{
-
-width:100%;
-height:100%;
-object-fit:cover;
-}
-
-.overlay{
-
-position:absolute;
-
-inset:0;
-
-background:rgba(0,0,0,0.22);
-
-display:flex;
-
-align-items:center;
-
-justify-content:center;
-
-font-size:34px;
-
-font-family:Georgia, serif;
-
-text-transform:uppercase;
-
-color:white;
-
-text-align:center;
-
-padding:20px;
 }
 
 footer{
 
-background:#7f1f31;
-
-padding:90px 30px;
-
+background:#8a1f33;
+padding:80px 30px;
 text-align:center;
-
 color:white;
 }
 
 footer p{
-
-color:#f2e4e4;
+color:#f3e6e6;
 }
 
 @media(max-width:768px){
 
-h1{
-font-size:48px;
-}
-
-h2{
-font-size:42px;
-}
-
-p,.texto{
-font-size:18px;
-}
-
-.cards{
-grid-template-columns:1fr;
-}
+h1{font-size:44px;}
+h2{font-size:38px;}
+p,.texto{font-size:18px;}
 
 }
 
@@ -236,8 +113,6 @@ grid-template-columns:1fr;
 
 <div class="hero">
 
-<div class="hero-content">
-
 <h1>
 O CORTE CERTO TRANSFORMA PRESENÇA, AUTOESTIMA E IMAGEM.
 </h1>
@@ -247,25 +122,19 @@ Atendimento individual e personalizado para mulheres que desejam uma beleza eleg
 </p>
 
 <a class="botao" href="https://wa.me/5547984026396">
-
 AGENDAR HORÁRIO
-
 </a>
-
-</div>
 
 </div>
 
 <section>
 
 <h2>
-UMA CLIENTE POR VEZ.
+UMA CLIENTE POR VEZ
 </h2>
 
 <div class="texto">
-
 Atendimento silencioso, acolhedor e totalmente personalizado para entender exatamente o que cada mulher deseja transmitir através do cabelo.
-
 </div>
 
 </section>
@@ -276,68 +145,8 @@ Atendimento silencioso, acolhedor e totalmente personalizado para entender exata
 SERVIÇOS
 </h2>
 
-<div class="cards">
-
-<div class="card">
-
-<img src="https://images.unsplash.com/photo-1517832606299-7ae9b720a186?q=80&w=1200&auto=format&fit=crop">
-
-<div class="overlay">
-CORTE FEMININO
-</div>
-
-</div>
-
-<div class="card">
-
-<img src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?q=80&w=1200&auto=format&fit=crop">
-
-<div class="overlay">
-COLORAÇÕES
-</div>
-
-</div>
-
-<div class="card">
-
-<img src="https://images.unsplash.com/photo-1522337660859-02fbefca4702?q=80&w=1200&auto=format&fit=crop">
-
-<div class="overlay">
-PROGRESSIVA
-</div>
-
-</div>
-
-<div class="card">
-
-<img src="https://images.unsplash.com/photo-1500840216050-6ffa99d75160?q=80&w=1200&auto=format&fit=crop">
-
-<div class="overlay">
-BOTOX CAPILAR
-</div>
-
-</div>
-
-<div class="card">
-
-<img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?q=80&w=1200&auto=format&fit=crop">
-
-<div class="overlay">
-DESIGN DE SOBRANCELHAS
-</div>
-
-</div>
-
-<div class="card">
-
-<img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=1200&auto=format&fit=crop">
-
-<div class="overlay">
-MAQUIAGEM
-</div>
-
-</div>
-
+<div class="texto">
+Corte feminino • Coloração • Progressiva • Botox capilar • Sobrancelhas • Maquiagem
 </div>
 
 </section>
