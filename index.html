@@ -1,33 +1,268 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
+
 <head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Studio Magnólia Guerra</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+
+body{
+margin:0;
+background:#f8f3ee;
+font-family:'Montserrat', sans-serif;
+color:#4b2c2c;
+}
+
+.hero{
+
+height:100vh;
+
+background:
+linear-gradient(rgba(248,243,238,0.75), rgba(248,243,238,0.90)),
+url('https://images.unsplash.com/photo-1523263685509-57c1d050d19b?q=80&w=1600&auto=format&fit=crop');
+
+background-size:cover;
+background-position:center;
+
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+
+text-align:center;
+
+padding:30px;
+}
+
+h1{
+
+font-family:'Cormorant Garamond', serif;
+font-size:78px;
+line-height:1.05;
+
+max-width:900px;
+
+margin-bottom:30px;
+
+font-weight:600;
+}
+
+p{
+
+font-size:20px;
+
+max-width:750px;
+
+line-height:1.8;
+}
+
+.botao{
+
+display:inline-block;
+
+margin-top:40px;
+
+background:#6b1f2b;
+
+color:white;
+
+padding:20px 40px;
+
+border-radius:60px;
+
+text-decoration:none;
+
+letter-spacing:2px;
+
+font-size:13px;
+
+transition:0.3s;
+}
+
+.botao:hover{
+
+background:#4d1420;
+
+transform:scale(1.03);
+}
+
+section{
+
+padding:110px 30px;
+
+text-align:center;
+}
+
+h2{
+
+font-family:'Cormorant Garamond', serif;
+
+font-size:56px;
+
+margin-bottom:25px;
+}
+
+.cards{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+
+gap:25px;
+
+max-width:1100px;
+
+margin:auto;
+
+margin-top:60px;
+}
+
+.card{
+
+background:white;
+
+padding:45px;
+
+border-radius:35px;
+
+box-shadow:0 15px 40px rgba(0,0,0,0.08);
+
+font-size:20px;
+}
+
+footer{
+
+background:#6b1f2b;
+
+padding:90px 30px;
+
+text-align:center;
+
+color:white;
+}
+
+footer p{
+
+color:#f2e8e8;
+}
+
+@media(max-width:768px){
+
+h1{
+font-size:46px;
+}
+
+h2{
+font-size:40px;
+}
+
+p{
+font-size:17px;
+}
+
+.hero{
+padding:25px;
+}
+
+}
+
+</style>
+
 </head>
 
-<body style="background:#f8f3ee; font-family:Arial; text-align:center; padding:60px; color:#4b2c2c;">
+<body>
 
-<h1 style="font-size:50px;">
-Studio Magnólia Guerra
+<div class="hero">
+
+<h1>
+O corte certo transforma presença, autoestima e imagem.
 </h1>
 
-<p style="font-size:22px; max-width:700px; margin:auto; line-height:1.8;">
-Atendimento individual e personalizado para mulheres que desejam sofisticação, leveza e naturalidade.
+<p>
+Atendimento individual e personalizado para mulheres que desejam uma beleza elegante, refinada e natural.
 </p>
 
-<a href="https://wa.me/5547984026396"
-style="
-display:inline-block;
-margin-top:40px;
-background:#6b1f2b;
-color:white;
-padding:18px 35px;
-text-decoration:none;
-border-radius:50px;
-font-size:14px;
-letter-spacing:2px;
-">
+<a class="botao" href="https://wa.me/5547984026396">
+
 AGENDAR HORÁRIO
+
 </a>
 
+</div>
+
+<section>
+
+<h2>
+Uma cliente por vez.
+</h2>
+
+<p>
+Atendimento silencioso, acolhedor e totalmente personalizado para entender exatamente o que cada mulher deseja transmitir através do cabelo.
+</p>
+
+</section>
+
+<section>
+
+<h2>
+Serviços
+</h2>
+
+<div class="cards">
+
+<div class="card">
+Corte Feminino
+</div>
+
+<div class="card">
+Colorações
+</div>
+
+<div class="card">
+Progressiva
+</div>
+
+<div class="card">
+Botox Capilar
+</div>
+
+<div class="card">
+Design de Sobrancelhas
+</div>
+
+<div class="card">
+Maquiagem
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<h2>
+Studio Magnólia Guerra
+</h2>
+
+<p>
+Atendimento sob agendamento em Itajaí • SC
+</p>
+
+<p>
+Instagram: @studiomagnoliaguerra
+</p>
+
+</footer>
+
 </body>
+
 </html>
